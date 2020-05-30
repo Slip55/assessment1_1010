@@ -1,0 +1,96 @@
+body{
+    background-color: #d5d5d5;
+}
+#wrapper{
+    width: 1100px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+h1{
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 56px;
+}
+h2{
+    color: #454545;
+    font-weight: 400;
+    font-size: 40px;
+}
+.imageSection{
+    float: left;
+    width: 340px;
+}
+.imageSection p{
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.overlayShort {
+    display: none;
+    position: relative;
+    width: 340px;
+    bottom: 227px;
+    opacity: 0;
+    transition: .5s ease;
+    background: linear-gradient(to bottom right, #ffffffaa 50%, transparent 0%);
+}
+.overlayLong {
+    display: none;
+    position: relative;
+    width: 340px;
+    bottom: 510px;
+    opacity: 0;
+    transition: .5s ease;
+    background: linear-gradient(to bottom right, #ffffffaa 50%, transparent 0%);
+}
+.imageHover:hover .overlayShort {
+    display: block;
+    opacity: 1;
+}.imageHover:hover .overlayLong {
+    display: block;
+    opacity: 1;
+}
+.imageShort{
+    height: 227px;
+}
+.imageLong{
+    height: 510px;
+}
+.bold{
+    font-weight: 700;
+}
+.largeFont{
+    font-size: 20px;
+}
+.marginLR{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.marginBot{
+    margin-bottom: 20px;
+}
+#footer{
+    float: left;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+#footer i{
+    margin-right: 30px;
+}
+#footer a{
+    color: black;
+}
+#footer a:link{
+    color: black;
+}
+#footer a:hover{
+    color: darkred;
+}
+#footer a:visited{
+    color: black;
+}
+#footer a:active{
+    color: darkred;
+}
